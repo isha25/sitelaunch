@@ -78,7 +78,7 @@ export default function Home() {
                 
                 <div className="relative aspect-[3/4] rounded-[2rem] md:rounded-[2.5rem] bg-secondary/60 backdrop-blur-xl border border-white/10 flex flex-col items-center justify-center text-center overflow-hidden group shadow-[0_20px_50px_rgba(0,0,0,0.3)] shadow-primary/20">
                   <img 
-                    src="/images/coach-placeholder.png" 
+                    src="/images/coach-placeholder-horizontal.jpeg" 
                     alt="Shailesh Pathak" 
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                   />
@@ -216,7 +216,7 @@ export default function Home() {
 
                   <div className="relative w-full max-w-[280px] sm:max-w-none mx-auto aspect-[4/3] rounded-[1.5rem] md:rounded-2xl border-2 border-transparent flex flex-col items-center justify-center text-center order-1 md:order-2 overflow-hidden shadow-xl shadow-primary/10">
                     <img 
-                      src="/images/coach-placeholder-horizontal.png" 
+                      src="/images/coach-placeholder.jpeg" 
                       alt="Shailesh Pathak" 
                       className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                     />
