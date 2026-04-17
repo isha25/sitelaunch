@@ -1,4 +1,4 @@
-name: Node.js CI
+name: React CI
 
 on:
   push:
@@ -14,5 +14,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build project
+        run: npm run build
       - name: Run app
         run: npm run dev
