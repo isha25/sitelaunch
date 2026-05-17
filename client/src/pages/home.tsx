@@ -70,32 +70,6 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Hero Image */}
-              <div className="relative w-full max-w-[280px] sm:max-w-sm mx-auto lg:max-w-[400px] lg:ml-auto animate-in fade-in zoom-in-95 duration-1000 delay-300 fill-mode-both mt-4 lg:mt-0">
-                {/* Decorative elements behind the image */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-[2rem] md:rounded-[2.5rem] transform rotate-3 scale-105 blur-xl md:blur-2xl -z-10" />
-                <div className="absolute -inset-1 bg-gradient-to-br from-border/50 to-background rounded-[2rem] md:rounded-[2.5rem] -z-10" />
-                
-                <div className="relative aspect-[3/4] rounded-[2rem] md:rounded-[2.5rem] bg-secondary/60 backdrop-blur-xl border border-white/10 flex flex-col items-center justify-center text-center overflow-hidden group shadow-[0_20px_50px_rgba(0,0,0,0.3)] shadow-primary/20">
-                  <img 
-                    src="/images/coach-placeholder-horizontal.jpeg" 
-                    alt="Shailesh Pathak" 
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-60" />
-                </div>
-
-                {/* Floating badge */}
-                <div className="absolute -bottom-4 -left-4 md:-bottom-6 md:-left-6 bg-background/80 backdrop-blur-xl rounded-xl md:rounded-2xl p-3 md:p-4 shadow-2xl border border-white/10 flex items-center gap-3 md:gap-4 animate-bounce hover:animate-none delay-500">
-                  <div className="h-8 w-8 md:h-10 md:w-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 border border-green-500/30">
-                    <CheckCircle2 className="w-4 h-4 md:w-5 md:h-5" />
-                  </div>
-                  <div>
-                    <p className="text-xs md:text-sm font-bold text-foreground">Clarity Delivered</p>
-                    <p className="text-[10px] md:text-xs font-medium text-muted-foreground">in just 3 days</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
