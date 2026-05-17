@@ -44,13 +44,13 @@ export default function Home() {
                 </div>
                 
                 <h1 className="text-3xl leading-[1.2] sm:text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold lg:leading-[1.1] text-foreground tracking-tight">
-                  <span className="block text-xl sm:text-2xl md:text-3xl font-bold text-foreground/80 mb-2 sm:mb-4 tracking-normal">For Parents & Class 10 Students Confused About Class 11 Stream</span>
+                  <span className="block text-xl sm:text-2xl md:text-3xl font-bold text-foreground/80 mb-2 sm:mb-4 tracking-normal">For Parents & Class 9-10 Students Confused About Class 11 Subject Stream</span>
                   Get Absolute Clarity Without <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/60">Stress, Guesswork, or Arguments</span>
                 </h1>
                 
                 <div className="space-y-4 md:space-y-6 text-sm sm:text-base md:text-xl text-muted-foreground leading-relaxed font-medium">
                   <p>
-                    “I help parents and students of class 9th & 10th choose the right subject stream and future career, without confusion or stress, using scientific psychological tests and personalized guidance.”
+                    “I help parents and students of Class 9 and 10 choose the right subject stream and career path using scientific psychometric assessments and personalized guidance without confusion or stress.”
                   </p>
                   <div className="pl-4 md:pl-6 border-l-4 border-primary/30 py-1 md:py-2 text-left">
                     <p className="text-foreground/80 italic font-normal text-sm md:text-lg">
@@ -190,11 +190,11 @@ export default function Home() {
                   
                   <div className="flex flex-col text-left space-y-4 md:space-y-6 order-2 md:order-1">
                     <p className="text-sm md:text-lg text-muted-foreground leading-relaxed">
-                      I help parents and Class 9-10 students make clear, confident stream decisions using structured guidance and psychological insight not guesswork.
+                      I guide Class 9 and 10 students to choose the right subject stream and future career using scientific psychometric assessments and structured one-on-one guidance eliminating confusion and costly mistakes.
                     </p>
-                    <p className="text-sm md:text-lg text-muted-foreground leading-relaxed">
+                    {/* <p className="text-sm md:text-lg text-muted-foreground leading-relaxed">
                       With years of experience working closely with students, I've developed a proven framework to identify their true strengths and align them with the right academic paths.
-                    </p>
+                    </p> */}
                     
                     <div className="pt-4 md:pt-6 border-t border-border/50">
                        <h4 className="text-base md:text-lg font-semibold mb-3 md:mb-4 text-foreground/80">Professional Background</h4>
@@ -242,14 +242,14 @@ export default function Home() {
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-5 md:mb-8 text-foreground">How I Help?</h2>
                 <div className="space-y-4 md:space-y-6 text-sm sm:text-base md:text-lg text-muted-foreground/90 font-medium text-left lg:text-left">
                   <p className="leading-relaxed">
-                    I help Class 9 & 10 students choose the right Class 11 stream using <strong className="text-foreground font-bold border-b-2 border-primary/40 pb-0.5">scientific psychological assessments</strong>, <strong className="text-foreground font-bold border-b-2 border-primary/40 pb-0.5">strength-based mapping</strong>, and <strong className="text-foreground font-bold border-b-2 border-primary/40 pb-0.5">personalised guidance</strong>.
+                    I help Class 9 & 10 students choose the right Class 11 stream using <strong className="text-foreground font-bold border-b-2 border-primary/40 pb-0.5">scientific psychometric assessments</strong>, and <strong className="text-foreground font-bold border-b-2 border-primary/40 pb-0.5">personalised guidance</strong> without <strong className="text-foreground font-bold text-primary">confusion, pressure, or guesswork.</strong>
                   </p>
-                  <p className="leading-relaxed">
+                  {/* <p className="leading-relaxed">
                     I created the <strong className="text-foreground font-bold">Right Stream Decision Blueprint</strong> so families never have to rely on guesswork, pressure, or random opinions again.
-                  </p>
-                  <p className="leading-relaxed">
+                  </p> */}
+                  {/* <p className="leading-relaxed">
                     My approach is practical, structured, and designed to bring <strong className="text-foreground font-bold text-primary">clarity, peace, and confidence</strong> to both parents and students.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               
@@ -257,7 +257,7 @@ export default function Home() {
                 {[
                   {
                     num: "1",
-                    title: "Scientific Psychological Assessments",
+                    title: "Scientific Psychometric Assessments",
                     desc: "Data-driven insights to uncover natural aptitudes and true potential.",
                     icon: <BrainCircuit className="w-5 h-5 md:w-6 md:h-6 text-primary" />,
                     gradient: "from-violet-500/10 to-fuchsia-500/10"
